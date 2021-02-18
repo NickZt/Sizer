@@ -5,11 +5,27 @@ A flutter plugin for Easily make Flutter apps responsive. Automatically adapt
 This package based on https://github.com/TechnoUrmish/Sizer
 The modification adds a little sugar and also makes it possible to bring the adaptive layout on flutter
 closer to what is usual on android studio xml layout design.
+
 Look into example, its more clear
 
-![Alt Text](https://github.com/TechnoUrmish/Sizer/blob/master/example/images/img_ss_with_lib.png)
+![Alt Text](https://github.com/NickZt/sizer_mod/blob/master/example/images/full.mp4)
 
-![Alt Text](https://github.com/TechnoUrmish/Sizer/blob/master/example/images/img_ss_without_lib.png)
+
+
+![Alt Text](https://github.com/NickZt/sizer_mod/blob/master/example/images/portrait_land_mob.gif)
+
+
+
+![Alt Text](https://github.com/NickZt/sizer_mod/blob/master/example/images/portrait_mob.gif)
+
+
+
+
+
+
+![Alt Text](https://github.com/NickZt/sizer_mod/blob/master/example/images/img_ss_with_lib.png)
+
+![Alt Text](https://github.com/NickZt/sizer_mod/blob/master/example/images/img_ss_without_lib.png)
 
 
 ## Installation ⬇️
@@ -18,7 +34,7 @@ Add to pubspec.yaml.
 dependencies:
   ...
   sizer: ^1.1.7  // for TechnoUrmish or
-  sizer_mod: ^0.0.1
+  sizer_mod: ^0.0.1 // for this version
 ```
 
 ## Parameters ⚙️ 
@@ -155,4 +171,4 @@ You can use it like this:
 
 ## Issue and feedback 💭 
 
-If you have any suggestion for including a feature or if something doesn't work, feel free to open a Github [issue](https://github.com/TechnoUrmish/Sizer/issues) for us to have a discussion on it.
+If you have any suggestion for including a feature or if something doesn't work, feel free to open a Github [issue](https://github.com/NickZt/sizer_mod/issues) for us to have a discussion on it.
