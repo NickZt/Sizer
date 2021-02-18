@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:sizer/sizer.dart';
+import 'package:sizer_mod/sizer.dart';
 
 import '../util/constant.dart';
 import '../util/strings.dart';

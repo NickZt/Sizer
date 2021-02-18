@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sizer/sizer.dart';
+import 'package:sizer_mod/sizer.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+import 'package:sizer_mod/base_widgets/ResponsiveWidget.dart';
 import '../util/color_util.dart';
 import 'first_page_screen.dart';
 import 'first_page_screen_without_sizer.dart';
@@ -22,15 +23,30 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return WelcomePage(
-      pageIndex: 0,
-      scrollDirection: Axis.vertical,
-      children: <Widget>[
-        FirstPageScreen(),
-        SecondPageScreen(),
-        ThirdPageScreen(),
-        FourthPageScreen(),
-      ],
+    final listOfPages = <Widget>[
+      FirstPageScreen(),
+      SecondPageScreen(),
+      ThirdPageScreen(),
+      FourthPageScreen(),
+    ];
+    return Scaffold(
+      appBar: AppBar(
+        title: SizerUtil.orientation == Orientation.portrait
+            ? const Text('portrait')
+            : const Text('landscape'),
+      ),
+      body: ResponsiveWidget(
+        landscapeLargeScreen: WelcomePage(
+          pageIndex: 0,
+          scrollDirection: Axis.vertical,
+          children: listOfPages,
+        ),
+        portraitLargeScreen: WelcomePage(
+          pageIndex: 0,
+          scrollDirection: Axis.horizontal,
+          children: listOfPages,
+        ),
+      ),
     );
   }
 }

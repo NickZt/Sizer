@@ -22,7 +22,7 @@ dependencies:
 
 Add the following imports to your Dart code: 
 ```
-import 'package:sizer/sizer.dart';
+import 'package:sizer_mod/sizer.dart';
 ```
 
 
@@ -34,7 +34,7 @@ import 'package:sizer/sizer.dart';
 ```
 import 'package:flutter/material.dart';
 import 'login_screen.dart'; 
-import 'package:sizer/sizer.dart';
+import 'package:sizer_mod/sizer.dart';
 
 void main() {
   runApp(MyApp());
@@ -67,7 +67,7 @@ You can use it like this:
 
 Whenever you use height and width first import sizer package.
 ```
-import 'package:sizer/sizer.dart';
+import 'package:sizer_mod/sizer.dart';
 ```
 
 **Widget Size** 🕓

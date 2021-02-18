@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 //add states same as in android (landskape, landscape and dpi based Medium Small Large
 class ResponsiveWidget extends StatelessWidget {
   const ResponsiveWidget(

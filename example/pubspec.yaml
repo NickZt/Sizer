@@ -21,7 +21,8 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  sizer_mod: ^1.1.5
+  sizer_mod:
+   path: ../
   smooth_page_indicator: ^0.2.0
   google_fonts: ^1.1.1
   flutter:

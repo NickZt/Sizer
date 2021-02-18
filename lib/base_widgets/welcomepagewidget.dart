@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-
 import 'package:sizer_mod/sizer.dart';
 
 class WelcomePage extends StatefulWidget {
@@ -52,11 +51,9 @@ class _WelcomePage extends State<WelcomePage> {
           child: FloatingActionButton(
             onPressed: () {
               if (pageIndex < widget.children.length - 1) {
-                print('val < :: $pageIndex ');
                 widget._pageController.animateToPage(pageIndex + 1,
                     duration: Duration(milliseconds: 500), curve: Curves.decelerate);
               } else {
-                print('val > :: $pageIndex ');
                 widget.doOnEndOfPages == null
                     ? widget._pageController.animateToPage(0,
                         duration: Duration(milliseconds: 500), curve: Curves.decelerate)
@@ -80,7 +77,6 @@ class _WelcomePage extends State<WelcomePage> {
               scrollDirection: widget.scrollDirection,
               controller: widget._pageController,
               onPageChanged: (value) {
-                print('val:: $value');
                 setState(() {
                   pageIndex = value;
                 });
