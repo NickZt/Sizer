@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sizer_mod/sizer.dart';
+import 'package:sizer_mod/sizer_mod.dart';
 
 import 'screens/home_screen.dart';
 

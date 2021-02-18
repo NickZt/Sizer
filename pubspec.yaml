@@ -1,8 +1,8 @@
 name: sizer_mod
 description: A flutter plugin for Easily make Flutter apps responsive. Automatically adapt UI to different screen sizes. With useful widgets. 
 version: 0.0.1
-#author: Nick Maletsky forked from a sizer package by Urmish Patel <urmishpatel9@gmail.com>
-homepage: https://github.com/NickZt/Sizer
+#author: Nick Maletsky based on a sizer package by Urmish Patel <urmishpatel9@gmail.com>
+homepage: https://github.com/NickZt/sizer_mod
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

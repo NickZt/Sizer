@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:sizer_mod/sizer_util.dart';
+import 'package:sizer_mod/sizer_mod.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:sizer_mod/sizer.dart';
 
 class WelcomePage extends StatefulWidget {
   final List<Widget> children;
