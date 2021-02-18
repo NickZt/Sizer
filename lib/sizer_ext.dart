@@ -1,4 +1,4 @@
-import 'package:sizer/sizer_util.dart';
+import 'package:sizer_mod/sizer_util.dart';
 
 extension SizerExt on double {
   //How to use
