@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer_mod/sizer_mod.dart';
-import 'package:sizer_mod/base_widgets/ResponsiveWidget.dart';
+import 'package:sizer_mod/base_widgets/responsive_widget.dart';
 import 'first_page_screen.dart';
 import 'first_page_screen_without_sizer.dart';
 import 'fourth_page_screen.dart';

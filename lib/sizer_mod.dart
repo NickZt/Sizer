@@ -6,5 +6,5 @@ library sizer_mod;
 
 export 'sizer_ext.dart';
 export 'sizer_util.dart';
-export 'base_widgets/ResponsiveWidget.dart';
+export 'base_widgets/responsive_widget.dart';
 export 'base_widgets/welcomepagewidget.dart';
